@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Oswald:wght@200;400;500&family=Poppins:wght@300;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+
+  body {
+      background: var(--body-bg-color);
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Poppins",sans-serif;
+      background-color: #0cbaba;
+        background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  }
+
+
+a {      
+    text-decoration: none;
+    color: black;
+
+}
+
+  .socialTree {
+      text-align: center;
+  }
+
+  .socialTree > img{
+        width: 150px;
+        height: 140px;
+        border-radius:50%;
+        padding: 0.2rem;
+        box-shadow: 0px 0px 8px 0px white;
+        margin-bottom: 0.5rem;
+        margin-top: 2rem;
+  }
+
+  .socialTree  > p {
+      font-family: "Poppins";
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: white;
+  }
+
+
+  .socialTree ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+  }
+
+  .socialTree ul li {
+    box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.747);
+    border-radius: 7px;
+      width: 300px;
+      list-style: none;
+      padding: 0.5rem;
+      margin-bottom: 0.8rem;
+      cursor: pointer;
+      background: white;
+  }
+
+  .socialTree ul li:hover {
+      transition: all .25s ease;
+      transform: translateY(-10%);
+      animation: shake 1s infinite;
+  }
+
+  @keyframes shake {
+        0%{
+            transform: rotate(5deg);
+        }
+        25%{
+                transform: rotate(2deg);
+        }
+        50%{
+            transform: rotate(4deg);
+
+        }
+        100%{
+            transform: rotate(2deg);
+        }
+  }
