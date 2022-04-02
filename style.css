@@ -46,7 +46,7 @@ a {
         margin-top: 2rem;
   }
 
-  .socialTree  > p {
+  .socialTree  > h1 {
       font-family: "Poppins";
       font-size: 1.5rem;
       font-weight: 600;
@@ -81,16 +81,16 @@ a {
 
   @keyframes shake {
         0%{
-            transform: rotate(5deg);
+            transform: rotate(0deg);
         }
         25%{
-                transform: rotate(2deg);
+                transform: rotateX(10deg);
         }
         50%{
-            transform: rotate(4deg);
+            transform: rotateY(12deg);
 
         }
         100%{
-            transform: rotate(2deg);
+            transform: rotateX(10deg);
         }
   }
